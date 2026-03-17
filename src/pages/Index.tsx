@@ -13,6 +13,7 @@ import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
 import FooterSection from "@/components/FooterSection";
 import LeadCaptureModal from "@/components/LeadCaptureModal";
+import DownloadButton from "@/components/download";
 
 const Index = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -31,6 +32,7 @@ const Index = () => {
       <BlogSection />
       <FAQSection />
       <CTASection />
+      <DownloadButton/>
       <FooterSection />
       <LeadCaptureModal open={modalOpen} onClose={() => setModalOpen(false)} />
 

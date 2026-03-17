@@ -35,5 +35,5 @@ This project is built with:
 - Vite
 - TypeScript
 - React
-- shadcn-ui
+- radix-ui
 - Tailwind CSS

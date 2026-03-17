@@ -4,9 +4,10 @@
   "description": "cyber-courses-landing-page",
   "main": "eslint.config.js",
 
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+"keywords": [
+  "cybersecurity courses", "landing page", "Courses"],
+  
+  "author": "", 
    "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -82,7 +83,6 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^15.15.0",
     "jsdom": "^20.0.3",
-
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3",
